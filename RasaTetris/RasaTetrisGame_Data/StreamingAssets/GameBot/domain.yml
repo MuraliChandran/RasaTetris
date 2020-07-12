@@ -1,0 +1,102 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - Chess
+  - Fruits
+  - Vegetable
+  - milk
+  - Earth
+  - Sun
+  - Payment
+  - Doctor
+  - Rise
+  - White
+  - Mass
+  - Dress
+  - Dinner
+  - Cake
+  - Sugar
+  - Wheat
+  - Iron
+  - Water
+  - Hot
+  - Bite
+  - Bucket
+  - Action
+  - Cinema
+  - Road
+  - Bus
+  - Rain
+  - Air
+  - College
+  - School
+  - Exam
+  - Teacher
+  - Student
+  - Mad
+  - Intelligent
+  - Surprise
+  - Gift
+  - Happiness
+  - Sadness
+  - Paper
+  - Pencil
+  - Actor
+  - Maid
+  - Grill
+  - Windows
+  - Close
+  - Exit
+  - Amount
+  - Flower
+  - East
+  - Question
+  - Walking
+  - Lion
+  - Joke
+  - Kite
+# - Cuckoo
+# - Tree
+# - Number
+# - Temple
+# - Complete
+# - End
+# - Circle
+# - Eyes
+# - Chair
+
+actions:
+  - action_hello_world
+
+slots:
+  Test:
+    type: unfeaturized
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
